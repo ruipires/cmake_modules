@@ -1,8 +1,9 @@
 # (extra) CMake Modules
 
 This repositories contains my custom build extra cmake modules.
-I used them as complement or replacement for the built-in FindXYZ.cmake modules.
-They usually use detect the library just like other FindXYZ.cmake modules, but in addition, they define a virtual library with the same name you passed to the find_package command, and defines its INTERFACE properties.
+I use them as complement or replacement for the built-in FindXYZ.cmake modules.
+
+They usually detect the library just like other FindXYZ.cmake modules, but in addition, they define a virtual library with the same name you passed to the find_package command, and defines its INTERFACE properties.
 This way you can simply find it and link to it and all necessary flags will be added to your compilation options.
 
 
@@ -31,6 +32,6 @@ target_link_libraries(Test Catch)
 
 
 # License
-The contents of this repository are licensed under the [Boost Software License|http://www.boost.org/users/license.html]
+The contents of this repository are licensed under the [Boost Software License](http://www.boost.org/users/license.html)
 
 
